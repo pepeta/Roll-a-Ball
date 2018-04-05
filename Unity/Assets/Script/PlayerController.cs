@@ -11,6 +11,6 @@ public class PlayerController : MonoBehaviour
         Rigidbody rigidbody = GetComponent<Rigidbody>();
 
         // rigidbodyのx軸（横）とz軸（奥）に力を加える
-        rigidbody.AddForce(x, 0, z);
+        rigidbody.AddForce(x*10, 0, z*10);
     }
 }
